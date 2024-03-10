@@ -1,0 +1,327 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#navbar{
+ height: 50px;
+}
+
+
+ul li {display: inline-block;}
+ul li:hover {text-decoration: underline;text-decoration-color:red;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: #efebeb; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #f4f1f1;}
+
+
+.img1{
+    display: flex;
+    left: 200px;
+}
+.carousel > .carousel-inner > .carousel-item > img{
+    position: relative;
+    right: 43%;
+    width:185vw; /* change the width and height*/
+}
+.leftbox1{
+    background-color:#f3f3cd;
+    position: relative;
+    height: 250vh;
+}
+.content{
+    position: absolute;
+    left: 7%;
+    top: 4%;
+}
+#h6{
+    position:absolute;
+    top: 150%;
+}
+#h5{
+    position:absolute;
+    top: 180%;
+}
+.rightbox1{
+    border: red solid 1px;
+    position: relative;
+    width: 50%;
+    left: 45%;
+    display: flex;
+    top: 10vh;
+    height: 62vh;
+    background-color: #fee7b1;
+}
+    
+#img2{
+    position: relative;
+    width: 43vw;
+    left: 7%;
+    height: 90%;
+    top: 5%;
+    transition: transform .5s, filter 1.5s ease-in-out;
+}
+    
+#img2:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+    
+    
+#butt1{
+    position:relative;
+    top:40vh;
+    width: 40%;
+}
+#butt2{
+    position: relative;
+    top: 40vh;
+    width: 40%;
+}
+
+#leftbox2{
+    position: relative;
+    top: 20vh;
+}
+#img3{
+    position:absolute;
+    width: 40%;
+    left: 55%;
+    top: 15%;
+    transition: transform .5s, filter 1.5s ease-in-out;
+}
+#img3:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+#paragraph1{
+    position:absolute;
+    top: 60%;
+}
+#paragraph2{
+    position:absolute;
+    top: 75%;
+}
+#butt3{
+    position: absolute;
+    top: 86%;
+    width: 20%;
+}  
+#butt4{
+    position: absolute;
+    top: 86%;
+    left: 24%;
+    width: 20%;
+}
+#paragraph4{
+    position: absolute;
+    bottom:8vh;
+    left: 3%;
+}
+#butt5{
+    position: absolute;
+    top: 86%;
+    width: 20%;
+}  
+#butt6{
+    position: absolute;
+    top: 86%;
+    left: 24%;
+    width: 20%;
+}
+#img4{
+    position:absolute;
+    width: 40%;
+    left: 55%;
+    top: 15%;
+    transition: transform .5s, filter 1.5s ease-in-out;
+}
+#img4:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+.text1{
+    position: relative;
+    top: 25vh;
+    width: 89.7%;
+    left: 4.9%;
+}
+.text2{
+    position: relative;
+    top:25vh;
+    width: 40vw;
+    left: 4%;
+} 
+#hover:hover{
+    text-decoration: underline;
+    text-decoration-color:red;
+}
+#boxes{
+    position: relative;
+    top: 12%;
+    width: 94vw;
+    left: 2%;
+}
+#img5{
+    transition: transform .5s, filter 1.5s ease-in-out;
+}
+#img5:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+#cost1{
+    position: relative;
+    top: 14vh;
+    text-decoration: none;
+    font-size:larger;
+}
+#img6{
+    transition: transform .5s, filter 1.5s ease-in-out;
+}
+#img6:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+#textsec{
+    position: relative;
+    top: 2vh;
+    font-size:x-small;
+}
+#cardtext{
+    position: relative;
+    top: 3vh;
+}
+#cost2{
+    position: relative;
+    top: 3vh;
+    text-decoration: none;
+    font-size:larger;
+}
+#img7{
+    transition: transform .5s, filter 1.5s ease-in-out;
+}
+#img7:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+#cost3{
+    position: relative;
+    top: 6vh;
+    text-decoration: none;
+    font-size:larger;
+}
+#img8{
+    transition: transform .5s, filter 1.5s ease-in-out;
+}
+#img8:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+#textsec1{
+    font-size:smaller;
+}
+#cost4{
+    position: relative;
+    top: 3vh;
+    text-decoration: none;
+    font-size:larger;
+}
+.secdiv{
+    background-color: black;
+    position: relative;
+    height: 250vh;
+}
+.textbody1{
+    position: absolute;
+    left: 5%;
+    top:10vh;
+}
+#text5{
+    font-weight: 500;
+}
+
+#text6{
+    position: relative;
+    top: 30vh;
+    font-weight: 400;
+}
+#text7{
+    position: relative;
+    top: 32vh;
+    font-weight: 400;
+}
+#butt7{
+    position: relative;
+    top: 35vh;
+    width: 13vw;
+    height: 6vh;
+}
+.imagediv{
+    width: 52vw;
+    height: 65vh;
+    position: relative;
+    left: 15%;
+    top: 5%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.img9{
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+.imagediv:hover img {
+    transform: scale(1.1);
+}
+.secdivchild{
+    position: absolute;
+    left:5%;
+    top: 90vh;
+}
+#p1{
+    font-size: x-large;
+}
+#hr{
+    position: relative;
+    width: 85vw;
+}
+#head1{
+    font-size:3vw
+}
+#discoverlink{
+    color: red;
+    text-decoration: none;
+}
+.link--arrowed {
+	display: inline-block;
+    height: 2rem;
+    line-height: 2rem;
+	
+	.arrow-icon {
+		position: relative;
+		top: -1px;
+		-webkit-transition: -webkit-transform 0.3s ease;
+		transition: -webkit-transform 0.3s ease;
+		transition: transform 0.3s ease;
+		transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+		vertical-align: middle;
+	}
+	&:hover {
+		.arrow-icon {
+			transform: translate3d(5px, 0, 0);
+		}
+	}
+}
+
+    
+   
+    
+    
